@@ -46,12 +46,12 @@ A hybrid log classification system built from scratch using **Regex**, **BERT**,
 
 ## 🛠️ Tech Stack
 
-| Component      | Technology                |
-|----------------|---------------------------|
-| NLP/Embedding  | BERT, Regex, TF-IDF       |
-| GenAI          | Deepseek R1, LLaMA / LLMs |
-| Classifier     | Logistic Regression       |
-| Backend/API    | FastAPI                   |
-| Language       | Python                    |
+| Component      | Technology                        |
+|----------------|-----------------------------------|
+| NLP/Embedding  | BERT, Regex, Sentence Transformer |
+| GenAI          | Deepseek R1, llama/LLMs           |
+| Classifier     | Logistic Regression               |
+| Backend/API    | FastAPI                           |
+| Language       | Python                            |
 
 ---
