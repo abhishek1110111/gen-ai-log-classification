@@ -1,8 +1,10 @@
 # main.py
+import pandas as pd
 from fastapi import FastAPI
-
+from classify import classify
 app = FastAPI()
 
-@app.get("/")
-def read_root():
-    return {"message": "Log Classifier API is running!"}
+
+@app.post("/classify/")
+def classify_logs(logs: list):
+    return {"labels": classify(logs)}
