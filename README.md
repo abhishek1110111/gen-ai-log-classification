@@ -89,7 +89,7 @@ A hybrid log classification system built from scratch using **Regex**, **BERT**,
 ├── regex_classifier.py       # Regex-based classification logic
 ├── bert_classifier.py        # BERT model for supervised classification
 ├── llm_classifier.py         # LLM (Deepseek R1/LLaMA) classification
-|__ .env                      # Need to API integrated LLM model
+|__ .env                      # Need to add API key to integrated LLM model using groq cloud
 └── venv/                     # Virtual environment (optional, ignored in .git)
 ```
 
